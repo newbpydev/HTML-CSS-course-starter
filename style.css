@@ -28,6 +28,26 @@ body {
   padding-bottom: 10px; */
   padding: 15px;
   text-transform: uppercase;
+  position: relative;
+}
+
+.title::before {
+  content: "SALE";
+  background-color: #e82a2c;
+  position: absolute;
+  top: -15px;
+  left: -33px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  color: #eee;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  /*! Another way to center it
+  width: 40px;
+  text-align: center; */
+
 }
 
 .price {
@@ -49,11 +69,41 @@ body {
 .more-info:link,
 .more-info:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .more-info:hover,
 .more-info:active {
   text-decoration: none;
+}
+
+.color-boxes-container {
+  /* margin-top: 30px; */
+}
+
+.color-boxes {
+  width: 22px;
+  height: 22px;
+  background-color: black;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-boxes:nth-child(2) {
+  background-color: #2b62df;
+}
+.color-boxes:nth-child(3) {
+  background-color: #e82a2c;
+}
+.color-boxes:nth-child(4) {
+  background-color: #edb61c;
+}
+.color-boxes:nth-child(5) {
+  background-color: #83c61a;
+}
+.color-boxes:nth-child(6) {
+  background-color: #7e4912;
 }
 
 .details-title {
@@ -67,11 +117,10 @@ body {
 .details-list {
   list-style: square;
   margin-left: 20px;
-  
 }
 
 .details-list li {
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 /* article button:last-of-type {
