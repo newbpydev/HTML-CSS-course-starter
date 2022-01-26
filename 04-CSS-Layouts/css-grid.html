@@ -36,23 +36,86 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 30px;
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        /* grid-template-columns: 1fr 1fr 1fr auto; */
+        grid-template-columns: repeat(4, 1fr);
+
+        /* grid-template-rows: 300px 200px; */
+        /* grid-template-rows: 1fr 1fr; */
+        /* grid-template-rows: 1fr auto; */
+        grid-template-rows: 1fr 1fr;
+
+        /* height: 500px; */
+
+        /*gap: 30px; */
+        column-gap: 20px;
+        row-gap: 40px;
+
+        /* Temporary */
+        display: none;
       }
+
+      .el--8 {
+        /*! Grid items only */
+        grid-column: 2 / 3; /*! Start and end loc using gutter num */
+        /* grid-row: 1 / -1; /*! Start and end loc using gutter num */
+        grid-row: 1 / 2; /*! Start and end loc using gutter num */
+      }
+
+      .el--2 {
+        /* grid-column: 1 / 4; */
+        /* grid-column: 1 / span 3; */
+        /* grid-column: 1 / -1;  used to span until the end */
+        grid-column: 1 / -1; /* used to span until the end */
+        grid-row: 2 / 3;
+      }
+
+      /*
+      .el--6 {
+        grid-column: 1 / 2;
+        grid-row: 3 / -1;
+      }
+      */
+      /*.el--5 {
+        grid-column: 1 / 2;
+        grid-row: 3 / -1;
+      }
+      */
 
       .container--2 {
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 100px;
+        margin: 40px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
 
+        gap: 50px;
+
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+
+        /* Aligning tracks inside containers: distribute empty space */
+        justify-content: center;
+        align-content: center;
+
+        /* Aligning items inside cells: moving items inside cells */
+        align-items: center; /* centers vertically inside the cell */
+        justify-items: center; /* centers horrizontally inside the cell */
+      }
+
+      .el--3 {
+        align-self: end;
+        justify-self: end;
       }
     </style>
   </head>
@@ -64,7 +127,7 @@
       <div class="el el--4">(4) are</div>
       <div class="el el--5">(5) amazing</div>
       <div class="el el--6">(6) languages</div>
-      <div class="el el--7">(7) to</div>
+      <!-- <div class="el el--7">(7) to</div> -->
       <div class="el el--8">(8) learn</div>
     </div>
 
