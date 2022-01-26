@@ -87,8 +87,8 @@ body {
   width: 22px;
   height: 22px;
   background-color: black;
-  display: inline-block;
-  margin-right: 10px;
+  /* display: inline-block; */
+  /* margin-right: 10px; */
 }
 
 .color-boxes:nth-child(2) {
@@ -157,6 +157,9 @@ article button:last-of-type:hover {
   /* border-bottom: 5px solid black; */
 }
 
+
+/* FLOAT CODE */
+/* 
 .float-img {
   float: left;
   width: 243px;
@@ -187,9 +190,9 @@ article button:last-of-type:hover {
 }
 
 .description {
-  clear: both;
+  clear: both; */
   /* margin-top: 20px; */
-}
+/* }
 
 .float-details {
   float: right;
@@ -207,6 +210,73 @@ article button:last-of-type:hover {
   clear:both;
 }
 
-.content {
+.content { */
   /* background-color: #83c61a; */
+/* } */
+
+
+/* FLEXBOX  */
+.content {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* flex: 0 0 100px; */
+  gap: 40px;
 }
+
+.content > div {
+  /* width: 200px; */
+  /* flex: 0 0 30%; */
+  flex: 1;
+}
+
+.float-img {
+  /* flex: 0 0 400px; */
+  /* flex: 1; */
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-shipping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  /* flex: 1; */
+}
+
+.color-boxes-container {
+  display: flex;
+  gap: 10px;
+}
+
+.float-details {
+  /* align-self: flex-start; */
+  /* flex: 1; */
+}
+
+/* CSS GRID LAYOUT */
+.container {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+
+.title {
+  grid-column: 1 / -1;
+}
+
+.add-cart {
+  grid-column: 1 / -1;
+}
+
+
+
+
+
+
+
