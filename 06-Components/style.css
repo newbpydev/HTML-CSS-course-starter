@@ -22,11 +22,12 @@ GRAY COLOR: #343a40
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: 'Inter', sans-serif;
-  color: #343a40 ;
+  font-family: "Inter", sans-serif;
+  color: #343a40;
   line-height: 1;
 }
 
+/* ACCORDION STYLES */
 .accordion {
   width: 700px;
   margin: 100px auto;
@@ -47,7 +48,8 @@ body {
   align-items: center;
 }
 
-.number, .text {
+.number,
+.text {
   font-size: 24px;
   font-weight: 500px;
   /* color: #087f5b; */
@@ -58,7 +60,6 @@ body {
 }
 
 .text {
-
 }
 
 .arrow {
@@ -75,7 +76,6 @@ body {
 .hidden-box p {
   line-height: 1.6;
   margin-bottom: 24px;
-  
 }
 
 .hidden-box ul {
@@ -96,7 +96,7 @@ body {
   display: block;
 }
 
-.open .number, 
+.open .number,
 .open .text {
   color: #087f5b;
 }
