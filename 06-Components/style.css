@@ -247,6 +247,69 @@ tbody tr:nth-child(even) {
 
 
 /* PAGINATION COMPONENT */
+body {
+  display: flex;
+  align-items: center;
+}
+
+.pagination {
+  font-size: 24px;
+  margin-top: 100px;
+  width: 700px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+
+.page-nums {
+  display: flex;
+  /* justify-content:; */
+  gap: 12px;
+}
+
+a.page-num:link,
+a.page-num:visited {
+  height: 56px;
+  width: auto;
+  /* display: inline-block; */
+  flex: 1 0 auto;
+  height: auto;
+  /* padding: 24px; */
+  text-decoration: none;
+  color: #343a40;
+
+  /* flex: 0 0 16px; */
+}
+
+a.page-num:hover,
+a.page-num:active {
+  border-radius: 50%;
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.page-dots {}
+
+.pgn-arrow {
+  height: 48px;
+  width: 48px;
+  padding: 12px;
+  stroke: #087f5b;
+  border: 1px solid #087f5b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pgn-arrow:hover {
+  background-color: #087f5b;
+  stroke: #fff;
+}
+
+.pgn-arrow--left {}
+
+.pgn-arrow--right {}
 
 
 

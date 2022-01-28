@@ -10,15 +10,16 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="04-pagination.css" />
     <title>Pagination Component</title>
   </head>
 
   <body>
     <div class="pagination">
-      <svg
+      <button class="btn">
+        <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6"
+        class="pgn-arrow pgn-arrow--left"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -30,6 +31,36 @@
           d="M15 19l-7-7 7-7"
         />
       </svg>
+      </button>
+      
+
+      <div class="page-nums">
+        <a href="#" class="page-num">1</a>
+        <a href="#" class="page-num">2</a>
+        <a href="#" class="page-num page-num--active">3</a>
+        <a href="#" class="page-num">4</a>
+        <a href="#" class="page-num">5</a>
+        <a href="#" class="page-num">6</a>
+        <span class="page-dots">...</span>
+        <a href="#" class="page-num">23</a>
+      </div>
+
+      <button class="btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="pgn-arrow pgn-arrow--right"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </button>
     </div>
   </body>
 </html>
