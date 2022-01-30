@@ -1,6 +1,6 @@
 # Omnifood Project
 
-## Step 1: DEFINE THE PROJECT
+## STEP 1: DEFINE THE PROJECT
 
 - Define **Who** the site is for
   
@@ -16,7 +16,7 @@
   
   - Busy people who like technology, are interested in a healthy diet, and have a well-paying job
 
-## Step 2: PLAN THE PROJECT
+## STEP 2: PLAN THE PROJECT
 
 - Plan and gather website content
 
@@ -30,26 +30,24 @@
 
 - Plan page sections
   
-  - Navigation
+  - Logo + Navigation
   
   - Hero
   
-  - Features
+  - Featured in
   
   - How it works
   
-  - Diets
+  - Meals (and list of diets)
   
-  - Meals
+  - Testimonials + Gallery
+  
+  - Pricing + Features
   
   - CTA
   
-  - Pricing
-  
-  - Gallery
-  
-  - Testimonials
-  
-  - Featured in
-  
   - Footer
+  
+  ## STEP 3: SKETCHING INITIAL LAYOUT IDEAS
+  
+  ![](C:\Users\Remym\AppData\Roaming\marktext\images\2022-01-30-10-34-13-image.png)
