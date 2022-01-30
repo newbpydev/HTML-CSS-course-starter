@@ -47,10 +47,10 @@
   - CTA
   
   - Footer
-
-## STEP 3: SKETCHING INITIAL LAYOUT IDEAS
-
-![](C:\Users\Remym\AppData\Roaming\marktext\images\2022-01-30-10-34-13-image.png)
+    
+    ## STEP 3: SKETCHING INITIAL LAYOUT IDEAS
+  
+  ![](C:\Users\Remym\AppData\Roaming\marktext\images\2022-01-30-10-34-13-image.png)
 
 ## STEP 4: FIRST DESIGN AND DEVELOPMENT STEPS
 
