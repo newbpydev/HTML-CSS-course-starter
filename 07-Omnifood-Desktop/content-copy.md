@@ -6,15 +6,13 @@ We are a technology company first, but with a major focus on consumer well-being
 
 ## Branding
 
-Headline: 
+Headline:
 
 Brand color: #e67e22
 
 ## Omnifood Website Content
 
 ### Summary
-
-
 
 ### Omnifood features
 
@@ -24,16 +22,6 @@ No waste: All our partners only use reusable containers to package all your meal
 Pause anytime: Going on vacation? Just pause your subscription, and we refund unused days.
 
 ### How Omnifood works
-
-[Show big app images]
-
-**Your daily dose of health in 3 simple steps**
-
-Tell us what you like (and what not): Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow!
-
-Approve your weekly meal plan: Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes.
-
-Receive meals at convenient time: Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
 
 ### Omnifood works with any diet
 
