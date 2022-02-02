@@ -10,37 +10,10 @@ Headline:
 
 Brand color: #e67e22
 
-## Omnifood Website Content
-
-### Summary
-
-### Omnifood features
-
-
-: 
-: 
-
-
-### 
-
-[Create simple form for users to sign up]
-
-
-### We have 2 pricing plans
 
 
 
 
-
-### Section with logos of featured publications [see images]
-
-### Contact information
-
-
-
-Social profiles: instagram, facebook, twitter [links to them not available yet]
-
-### Additional links [links not available yet]
 
 
 
