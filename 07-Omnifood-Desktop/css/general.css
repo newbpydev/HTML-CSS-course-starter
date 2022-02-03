@@ -75,6 +75,9 @@ html {
   /** Percentage of user's browser font-setting */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* !Does not work on Safari and iOS */
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -85,6 +88,7 @@ body {
 
   /*! Only works if there is no absolutely position in relation to body */
   overflow-x: hidden;
+
 }
 
 /** ================================================== */
